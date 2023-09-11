@@ -1,0 +1,32 @@
+.custom-bg
+{
+    background-image: url(Stock\ img\ Rainbow\ background.jpg);
+    background-size: cover;
+}
+
+@font-face
+{
+    font-family: 'Preahvihear';
+    src:url('Preahvihear-Regular.ttf')
+}
+
+input
+{
+    font-size: 24px;
+}
+
+.sign-in-pos
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#email, #password
+{
+    border: 2px solid #000;
+    font-family: Preahvihear;
+    font-size: 18px;
+    padding: 3px;
+    
+}
