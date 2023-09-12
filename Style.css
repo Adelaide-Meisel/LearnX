@@ -1,13 +1,25 @@
-.custom-bg
-{
-    background-image: url(Stock\ img\ Rainbow\ background.jpg);
-    background-size: cover;
-}
-
 @font-face
 {
     font-family: 'Preahvihear';
     src:url('Preahvihear-Regular.ttf')
+}
+
+@font-face
+{
+    font-family: 'Pacifico';
+    src:url('Pacifico-Regular.ttf')
+}
+
+@font-face
+{
+    font-family: 'ArchivoBlack';
+    src: url('ArchivoBlack-Regular.ttf');
+}
+
+.custom-bg
+{
+    background-image: url(Stock\ img\ Rainbow\ background.jpg);
+    background-size: cover;
 }
 
 input
@@ -15,11 +27,12 @@ input
     font-size: 24px;
 }
 
-.sign-in-pos
+.sign-in-box
 {
-    display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
+    margin-left: 39%;
 } 
 
 #email, #password
@@ -29,4 +42,25 @@ input
     font-size: 18px;
     padding: 3px;
     
+}
+
+.sign-in
+{
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 125px;
+    position: relative;
+    top: 100px;
+}
+
+.div-for-sign-in-all
+{
+
+}
+
+.Title
+{
+    font-family: ArchivoBlack;
+    font-size: 50px;
+    text-align: center;
 }
