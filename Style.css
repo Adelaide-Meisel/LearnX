@@ -64,3 +64,11 @@ input
     font-size: 50px;
     text-align: center;
 }
+
+.info
+{
+    font-size: 24;
+    background-color: #FFFFF0;
+    text-align: left;
+    
+}
