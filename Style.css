@@ -55,7 +55,7 @@ input
 
 .div-for-sign-in-all
 {
-
+    background-color: white;
 }
 
 .Title
@@ -71,4 +71,34 @@ input
     background-color: #FFFFF0;
     text-align: left;
     
+}
+
+.intro-page
+{
+    background-image: url("Calulator-Image.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 100%;
+
+}
+
+.info-div
+{
+    background-image: url("Light-Rainbow-Gradient.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 100%;
+}
+.main-page-body
+{
+    background-image: url("Rainbow-Paint-Spill.jpg");
+    background-size: cover;
 }
