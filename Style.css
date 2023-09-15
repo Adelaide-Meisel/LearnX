@@ -16,6 +16,12 @@
     src: url('ArchivoBlack-Regular.ttf');
 }
 
+@font-face
+{
+    font-family: 'BalsamiqSans';
+    src: url('BalsamiqSans-Regular.ttf');
+}
+
 .custom-bg
 {
     background-image: url(Stock\ img\ Rainbow\ background.jpg);
@@ -73,7 +79,7 @@ input
     
 }
 
-.intro-page
+.Top-div-info-page
 {
     background-image: url("Calulator-Image.jpg");
     background-size: cover;
@@ -93,12 +99,30 @@ input
     background-position: center;
     font-family: 'Preahvihear';
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+    margin-top: 50%;
     height: 100px;
     width: 100%;
+    
 }
-.main-page-body
+.main-intro-page-body
 {
     background-image: url("Rainbow-Paint-Spill.jpg");
     background-size: cover;
+}
+
+.link
+{
+    margin: "50%";
+    display: inline;
+    padding: 40px;
+}
+
+.slogan
+{
+    /*background: linear-gradient(red, rgb(0, 225, 255) 50%, rgb(197, 7, 255));*/
+    font-family: 'BalsamiqSans';
+    font-size: 20;
+
+
 }
