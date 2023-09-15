@@ -1,3 +1,5 @@
+
+/*ALL @font-faces ARE FOR FONTS*/
 @font-face
 {
     font-family: 'Preahvihear';
@@ -22,18 +24,13 @@
     src: url('BalsamiqSans-Regular.ttf');
 }
 
-.custom-bg
+.Sign-In-bg /*background for the sgin-in page*/
 {
     background-image: url(Stock\ img\ Rainbow\ background.jpg);
     background-size: cover;
 }
 
-input
-{
-    font-size: 24px;
-}
-
-.sign-in-box
+.sign-in-box /*the boxes for typing in email & password*/
 {
     justify-content: center;
     align-items: center;
@@ -41,7 +38,7 @@ input
     margin-left: 39%;
 } 
 
-#email, #password
+#email, #password /*sets how the boxes will look on the inside*/
 {
     border: 2px solid #000;
     font-family: Preahvihear;
@@ -50,7 +47,8 @@ input
     
 }
 
-.sign-in
+.sign-in /*THIS IS DUMB BUT...this mkaes the words "sign-in" on the sign-in
+            page look how they look*/
 {
     font-family: Pacifico;
     text-align: center;
@@ -59,19 +57,19 @@ input
     top: 100px;
 }
 
-.div-for-sign-in-all
+.div-for-sign-in-all /*the text "sign-in" and its boxes*/
 {
     background-color: white;
 }
 
-.Title
+.Title /*changes the text for "LearnX"*/
 {
     font-family: ArchivoBlack;
     font-size: 50px;
     text-align: center;
 }
 
-.info
+.info /*changes text for the info on the sign-in page*/
 {
     font-size: 24;
     background-color: #FFFFF0;
@@ -79,20 +77,22 @@ input
     
 }
 
-.Top-div-info-page
+.Top-div-info-page /*controls everything about the top of the index page*/
 {
     background-image: url("Calulator-Image.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+    border: 2px solid #000; /*does how think and what color*/
     font-family: 'Preahvihear';
     font-size: 30px;
     text-align: left;
     height: 100px;
     width: 100%;
-
 }
 
-.info-div
+.info-div /*controls everything about the info div at the bottom of the 
+            index page*/
 {
     background-image: url("Light-Rainbow-Gradient.jpg");
     background-size: cover;
@@ -105,24 +105,45 @@ input
     width: 100%;
     
 }
-.main-intro-page-body
+.main-intro-page-body /*Controls the whole background of the index page*/
 {
     background-image: url("Rainbow-Paint-Spill.jpg");
     background-size: cover;
 }
 
-.link
+.link /*controls how text looks and 
+        WILL(DELETE THIS WHEN YOU DO) MAKE THE TEXT INTO LINKS*/
 {
     margin: "50%";
     display: inline;
-    padding: 40px;
+    padding: 80px;
 }
 
-.slogan
+.slogan /*Controls the text of the slogan for LearnX*/
 {
     /*background: linear-gradient(red, rgb(0, 225, 255) 50%, rgb(197, 7, 255));*/
     font-family: 'BalsamiqSans';
-    font-size: 20;
+    font-size: 35px;
+}
 
+.slogan-sgl /*controls the padding for the slogan because I wanted them 
+                to line up*/
+{
+    padding-left: 126px;
+}
+
+.sign-in-create-account /*controls the text for "sign-in | create account*/
+{
+    text-align: right;
+}
+
+.Calc-Pic /*WILL CONTROL THE CALC PIC(DELETE WHEN DONE)*/
+{
+    background-image: url(Calculator-On-Notepad.jpg);
+  
+}
+
+.Calc-and-Pic
+{
 
 }
