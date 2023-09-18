@@ -79,7 +79,7 @@
 
 .Top-div-info-page /*controls everything about the top of the index page*/
 {
-    background-image: url("Calulator-Image.jpg");
+    background-image: url("School-Supplies.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -124,26 +124,34 @@
     /*background: linear-gradient(red, rgb(0, 225, 255) 50%, rgb(197, 7, 255));*/
     font-family: 'BalsamiqSans';
     font-size: 35px;
+    padding-right: 625px;
 }
 
-.slogan-sgl /*controls the padding for the slogan because I wanted them 
+.slogan-Asgl /*controls the padding for the slogan because I wanted them 
                 to line up*/
 {
     padding-left: 126px;
+    padding-right: 300px;
 }
 
-.sign-in-create-account /*controls the text for "sign-in | create account*/
+.sign-in-create-account/*controls the text for "sign-in | create account*/
 {
+    color: white;
     text-align: right;
 }
 
 .Calc-Pic /*WILL CONTROL THE CALC PIC(DELETE WHEN DONE)*/
 {
-    background-image: url(Calculator-On-Notepad.jpg);
-  
+   
 }
 
 .Calc-and-Pic
 {
 
+}
+
+a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+    color: black
 }
