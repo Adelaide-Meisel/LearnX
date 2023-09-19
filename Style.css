@@ -97,6 +97,7 @@
     background-image: url("Light-Rainbow-Gradient.jpg");
     background-size: cover;
     background-position: center;
+
     font-family: 'Preahvihear';
     font-size: 30px;
     text-align: center;
@@ -121,17 +122,19 @@
 
 .slogan /*Controls the text of the slogan for LearnX*/
 {
-    /*background: linear-gradient(red, rgb(0, 225, 255) 50%, rgb(197, 7, 255));*/
+    background: linear-gradient(yellow, #00F6FF, #6300A7, red);
+    border-color: #161718;
+    border-width: 7px;
+    border-style: solid;
     font-family: 'BalsamiqSans';
     font-size: 35px;
-    padding-right: 625px;
+    position:absolute;
 }
 
 .slogan-Asgl /*controls the padding for the slogan because I wanted them 
                 to line up*/
 {
     padding-left: 126px;
-    padding-right: 300px;
 }
 
 .sign-in-create-account/*controls the text for "sign-in | create account*/
@@ -142,12 +145,17 @@
 
 .Calc-Pic /*WILL CONTROL THE CALC PIC(DELETE WHEN DONE)*/
 {
-   
+
 }
 
-.Calc-and-Pic
+.Text-and-Pic
 {
-
+    position:absolute;
+    margin-left: 1095px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7E481C;
 }
 
 a:link,a:visited,a:hover,a:active
