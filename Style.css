@@ -24,6 +24,20 @@
     src: url('BalsamiqSans-Regular.ttf');
 }
 
+.Top-div-info-page /*controls everything about the top of the index page*/
+{
+    background-image: url("School-Supplies.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    border: 2px solid #000; /*does how think and what color*/
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 100%;
+}
+
 .Sign-In-bg /*background for the sgin-in page*/
 {
     background-image: url(Stock\ img\ Rainbow\ background.jpg);
@@ -77,19 +91,7 @@
     
 }
 
-.Top-div-info-page /*controls everything about the top of the index page*/
-{
-    background-image: url("School-Supplies.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    border: 2px solid #000; /*does how think and what color*/
-    font-family: 'Preahvihear';
-    font-size: 30px;
-    text-align: left;
-    height: 100px;
-    width: 100%;
-}
+
 
 .info-div /*controls everything about the info div at the bottom of the 
             index page*/
@@ -97,27 +99,39 @@
     background-image: url("Light-Rainbow-Gradient.jpg");
     background-size: cover;
     background-position: center;
-
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
     font-family: 'Preahvihear';
     font-size: 30px;
     text-align: center;
-    margin-top: 50%;
-    height: 100px;
-    width: 100%;
-    
-}
-.main-intro-page-body /*Controls the whole background of the index page*/
-{
-    background-image: url("Rainbow-Paint-Spill.jpg");
-    background-size: cover;
+    height: 69px;
+    width: 99%;
+    margin-bottom: auto;
 }
 
 .link /*controls how text looks and 
         WILL(DELETE THIS WHEN YOU DO) MAKE THE TEXT INTO LINKS*/
 {
-    margin: "50%";
+    margin: 44px;
     display: inline;
-    padding: 80px;
+}
+
+.main-intro-page-body /*Controls the whole background of the index page*/
+{
+    background-image: url("Rainbow-Paint-Spill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-text
+{
+    /*background-color: ;*/
+    margin-top: 150px;
+    margin-right: 300px;
+    width: 72%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
 }
 
 .slogan /*Controls the text of the slogan for LearnX*/
