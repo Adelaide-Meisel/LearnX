@@ -1,32 +1,165 @@
-.custom-bg
-{
-    background-image: url(Stock\ img\ Rainbow\ background.jpg);
-    background-size: cover;
-}
 
+/*ALL @font-faces ARE FOR FONTS*/
 @font-face
 {
     font-family: 'Preahvihear';
     src:url('Preahvihear-Regular.ttf')
 }
 
-input
+@font-face
 {
-    font-size: 24px;
+    font-family: 'Pacifico';
+    src:url('Pacifico-Regular.ttf')
 }
 
-.sign-in-pos
+@font-face
 {
-    display:flex;
+    font-family: 'ArchivoBlack';
+    src: url('ArchivoBlack-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'BalsamiqSans';
+    src: url('BalsamiqSans-Regular.ttf');
+}
+
+.Sign-In-bg /*background for the sgin-in page*/
+{
+    background-image: url(Stock\ img\ Rainbow\ background.jpg);
+    background-size: cover;
+}
+
+.sign-in-box /*the boxes for typing in email & password*/
+{
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
+    margin-left: 39%;
 } 
 
-#email, #password
+#email, #password /*sets how the boxes will look on the inside*/
 {
     border: 2px solid #000;
     font-family: Preahvihear;
     font-size: 18px;
     padding: 3px;
     
+}
+
+.sign-in /*THIS IS DUMB BUT...this mkaes the words "sign-in" on the sign-in
+            page look how they look*/
+{
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 125px;
+    position: relative;
+    top: 100px;
+}
+
+.div-for-sign-in-all /*the text "sign-in" and its boxes*/
+{
+    background-color: white;
+}
+
+.Title /*changes the text for "LearnX"*/
+{
+    font-family: ArchivoBlack;
+    font-size: 50px;
+    text-align: center;
+}
+
+.info /*changes text for the info on the sign-in page*/
+{
+    font-size: 24;
+    background-color: #FFFFF0;
+    text-align: left;
+    
+}
+
+.Top-div-info-page /*controls everything about the top of the index page*/
+{
+    background-image: url("School-Supplies.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    border: 2px solid #000; /*does how think and what color*/
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 100%;
+}
+
+.info-div /*controls everything about the info div at the bottom of the 
+            index page*/
+{
+    background-image: url("Light-Rainbow-Gradient.jpg");
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50%;
+    height: 100px;
+    width: 100%;
+    
+}
+.main-intro-page-body /*Controls the whole background of the index page*/
+{
+    background-image: url("Rainbow-Paint-Spill.jpg");
+    background-size: cover;
+}
+
+.link /*controls how text looks and 
+        WILL(DELETE THIS WHEN YOU DO) MAKE THE TEXT INTO LINKS*/
+{
+    margin: "50%";
+    display: inline;
+    padding: 80px;
+}
+
+.slogan /*Controls the text of the slogan for LearnX*/
+{
+    background: linear-gradient(yellow, #00F6FF, #6300A7, red);
+    border-color: #161718;
+    border-width: 7px;
+    border-style: solid;
+    font-family: 'BalsamiqSans';
+    font-size: 35px;
+    position:absolute;
+}
+
+.slogan-Asgl /*controls the padding for the slogan because I wanted them 
+                to line up*/
+{
+    padding-left: 126px;
+}
+
+.sign-in-create-account/*controls the text for "sign-in | create account*/
+{
+    color: white;
+    text-align: right;
+}
+
+.Calc-Pic /*WILL CONTROL THE CALC PIC(DELETE WHEN DONE)*/
+{
+
+}
+
+.Text-and-Pic
+{
+    position:absolute;
+    margin-left: 1095px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7E481C;
+}
+
+a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+    color: black
 }
