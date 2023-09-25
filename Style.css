@@ -3,30 +3,30 @@
 @font-face
 {
     font-family: 'Preahvihear';
-    src:url('Preahvihear-Regular.ttf')
+    src:url('fonts/Preahvihear-Regular.ttf')
 }
 
 @font-face
 {
     font-family: 'Pacifico';
-    src:url('Pacifico-Regular.ttf')
+    src:url('fonts/Pacifico-Regular.ttf')
 }
 
 @font-face
 {
     font-family: 'ArchivoBlack';
-    src: url('ArchivoBlack-Regular.ttf');
+    src: url('fonts/ArchivoBlack-Regular.ttf');
 }
 
 @font-face
 {
     font-family: 'BalsamiqSans';
-    src: url('BalsamiqSans-Regular.ttf');
+    src: url('fonts/BalsamiqSans-Regular.ttf');
 }
 
 .Sign-In-bg /*background for the sgin-in page*/
 {
-    background-image: url(Stock\ img\ Rainbow\ background.jpg);
+    background-image: url("images/Stock-img-Rainbow-background.jpg");
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@
 
 .Top-div-info-page /*controls everything about the top of the index page*/
 {
-    background-image: url("School-Supplies.jpg");
+    background-image: url("images/School-Supplies.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -94,7 +94,7 @@
 .info-div /*controls everything about the info div at the bottom of the 
             index page*/
 {
-    background-image: url("Light-Rainbow-Gradient.jpg");
+    background-image: url("images/Light-Rainbow-Gradient.jpg");
     background-size: cover;
     background-position: center;
 
@@ -108,7 +108,7 @@
 }
 .main-intro-page-body /*Controls the whole background of the index page*/
 {
-    background-image: url("Rainbow-Paint-Spill.jpg");
+    background-image: url("images/Rainbow-Paint-Spill.jpg");
     background-size: cover;
 }
 
