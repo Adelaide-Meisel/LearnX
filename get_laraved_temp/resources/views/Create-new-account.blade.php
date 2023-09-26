@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--sign-in page-->
-<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="/get_laraved_temp/resources/css/app.css">
 
 <h1>Create New Account</h1>
 
