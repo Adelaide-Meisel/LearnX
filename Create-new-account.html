@@ -4,21 +4,30 @@
 
 <h1>Create New Account</h1>
 
-Are you an orginization? 
-<body>
-    <button>Yes</button> <button>No</button>
-</body>
-</html>
-<script>
-    // JavaScript code to perform a conditional check
-    var condition = true;
+<p id="myParagraph">Are you an orginization? </p>
 
-    if (condition) {
-        document.getElementById('output').textContent = 'This content is displayed because the condition is true.';
-    } else {
-        document.getElementById('output').textContent = 'This content is displayed because the condition is false.';
+<body>
+    <input type="button" class="Yes-Button" value ="Yes" class onclick="org_yes_no()"></input> 
+    <input type="button" class="No-Button"  value="No" class onclick="org_yes_no()"></input>
+</body>
+
+<script>
+    function org_yes_no()
+    {
+        document.querySelector(".Yes-Button").onclick = function()
+        {
+            window.location.href = 'EXAMPLE';
+        } 
+        
+        document.querySelector(".No-Button").onclick = function()
+        {
+            var paragraph=document.getElementById("myParagraph");
+            paragraph.textContent="Is your child(ren) homeschooled?";
+        }
     }
 </script>
 
-<html>
+
+
+
 </html>
