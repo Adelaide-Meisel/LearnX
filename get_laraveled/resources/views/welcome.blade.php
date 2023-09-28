@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="/get_laraved_temp/resources/css/app.css">
+<link rel="stylesheet" type="text/css" href="/css/app.css">
 
 <body>
     <div class="Top-div-info-page">
@@ -33,7 +33,7 @@
 
 <div class="Text-and-Pic">
     <div>
-        <img src="/get_laraved_temp/resources/Images/Calculator-On-Notepad.jpg" width="400" height="450" style="float: right;" ><!--DON'T PUT ANYTHING HERE, THIS IS FOR PIC ONLY-->
+        <img src="/Images/Calculator-On-Notepad.jpg" width="400" height="450" style="float: right;" ><!--DON'T PUT ANYTHING HERE, THIS IS FOR PIC ONLY-->
     </div>
     <div style="position: absolute; margin-top: 27px; margin-left: 210px; font-size: 25px; font-family: Arial, Helvetica, sans-serif;">
         LearnX made learning in school so much easier! -Larua Don<br>

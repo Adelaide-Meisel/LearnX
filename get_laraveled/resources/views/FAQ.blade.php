@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--sign-in page-->
-<link rel="stylesheet" type="text/css" href="/get_laraved_temp/resources/css/app.css">
+<link rel="stylesheet" type="text/css" href="/css/app.css">
 
 <div class="faq">
 
