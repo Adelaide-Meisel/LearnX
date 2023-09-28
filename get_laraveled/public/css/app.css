@@ -172,11 +172,18 @@
 a:link,a:visited,a:hover,a:active
 {
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 .new-accounts
 {
     background-image: url("/Images/Light-Rainbow-Gradient.jpg");
-    font-family: ;
+    font-family: 'Preahvihear';
+    text-align: center;
+    margin: 10px;
+}
+
+.new-accounts#title
+{
+    font-size: 64px;
 }

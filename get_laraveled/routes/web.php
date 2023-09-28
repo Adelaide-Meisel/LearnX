@@ -31,3 +31,6 @@ Route::get('/GradeBook', function () {
 Route::get('/SignIn', function () {
     return view('Sign-In');
 })->name("page.sign.in");
+Route::get('/enterOrgAt', function () {
+    return view('Please-enter-you-orinization-at');
+})->name("page.org.at");
