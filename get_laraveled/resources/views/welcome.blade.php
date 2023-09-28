@@ -68,7 +68,7 @@
 <div class="info-div">
     <div>
         <div class="link">
-            FAQ
+            <a type="button" class="Button" value ="Yes" class onclick={{ redirect("page.faq") }}>FAQ</a> 
         </div>
         <div class="link">
             ABOUT

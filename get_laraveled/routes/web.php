@@ -15,4 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name("page.index");
+Route::get('/areYouOrg', function () {
+    return view('Are-you-an-orginization');
+})->name("page.are.you.org");
+Route::get('/areYouHomeSchooled', function () {
+    return view('Is-your-child-homeschooled');
+})->name("page.are.home.school");
+Route::get('/FAQ', function () {
+    return view('FAQ');
+})->name("page.faq");
+Route::get('/GradeBook', function () {
+    return view('Gradebook');
+})->name("page.gradebook");
+Route::get('/SignIn', function () {
+    return view('Sign-In');
+})->name("page.sign.in");
