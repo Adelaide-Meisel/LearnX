@@ -34,4 +34,8 @@
     </div>
 </div>
 
+<div style="font-size: 20px">
+    <a href={{ route("page.reset.pas") }} style="margin-left: 730px">I forgot my password</a>
+</div>
+
 </html>

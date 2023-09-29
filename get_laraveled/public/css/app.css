@@ -8,12 +8,6 @@
 
 @font-face
 {
-    font-family: 'Pacifico';
-    src:url("/Fonts/Pacifico-Regular.ttf")
-}
-
-@font-face
-{
     font-family: 'ArchivoBlack';
     src: url("/Fonts/ArchivoBlack-Regular.ttf");
 }
@@ -73,7 +67,7 @@
 
 .main-intro-page-body /*Controls the whole background of the index page*/
 {
-    background-image: url("/Images/Rainbow-Paint-Spill.jpg");
+    background-image: url("/Images/paint-splat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -139,7 +133,7 @@
 .sign-in /*THIS IS DUMB BUT...this mkaes the words "sign-in" on the sign-in
             page look how they look*/
 {
-    font-family: Pacifico;
+    font-family: Preahvihear;
     text-align: center;
     font-size: 125px;
     position: relative;

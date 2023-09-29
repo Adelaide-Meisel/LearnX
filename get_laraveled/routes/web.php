@@ -34,3 +34,6 @@ Route::get('/SignIn', function () {
 Route::get('/enterOrgAt', function () {
     return view('Please-enter-your-orginizations-at');
 })->name("page.org.at");
+Route::get('/forgotPassword', function () {
+    return view('ForgotPassword');
+})->name("page.reset.pas");
