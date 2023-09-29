@@ -67,7 +67,7 @@
 
 .main-intro-page-body /*Controls the whole background of the index page*/
 {
-    background-image: url("/Images/Rainbow-Paint-Spill.jpg");
+    background-image: url("/Images/paint-spill.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
