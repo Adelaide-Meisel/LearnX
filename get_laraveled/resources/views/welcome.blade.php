@@ -13,7 +13,7 @@
                 </div>-->
 
             <div class="sign-in-create-account">
-                <a href="Sign-In.html" style="color: white;">Sign-In  </a><a href="" style="color: white;">|  Create New Account</a>
+                <a type="button" class="Button" value ="Yes" class href={{ route("page.sign.in") }} style="color: white;">Sign-In  </a><a type="button" class="Button" value ="Yes" class href={{ route("page.are.you.org") }} style="color: white;">|  Create New Account</a>
                 <!--Sign in is sign in, create new needs to go to are you org-->
             </div>
         </div>
@@ -69,7 +69,7 @@
 <div class="info-div">
     <div>
         <div class="link">
-            <a type="button" class="Button" value ="Yes" class onclick={{ redirect("page.faq") }}>FAQ</a> 
+            <a type="button" class="Button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
         </div>
         <div class="link">
             ABOUT

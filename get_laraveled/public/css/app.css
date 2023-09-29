@@ -180,7 +180,8 @@ a:link,a:visited,a:hover,a:active
     background-image: url("/Images/Light-Rainbow-Gradient.jpg");
     font-family: 'Preahvihear';
     text-align: center;
-    margin: 10px;
+    font-size: 60px;
+
 }
 
 .new-accounts#title

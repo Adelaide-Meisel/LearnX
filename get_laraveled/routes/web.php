@@ -29,8 +29,8 @@ Route::get('/GradeBook', function () {
     return view('Gradebook');
 })->name("page.gradebook");
 Route::get('/SignIn', function () {
-    return view('Sign-In');
+    return view('Sign-in');
 })->name("page.sign.in");
 Route::get('/enterOrgAt', function () {
-    return view('Please-enter-you-orinization-at');
+    return view('Please-enter-your-orginizations-at');
 })->name("page.org.at");
