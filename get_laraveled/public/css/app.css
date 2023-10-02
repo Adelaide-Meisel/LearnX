@@ -40,7 +40,7 @@
 
 .slogan /*Controls the text of the slogan for LearnX*/
 {
-    background: linear-gradient(yellow, #00F6FF, #6300A7, red);
+    background: linear-gradient(yellow, #00F6FF, #4862FF, #FF3737);
     border-color: #161718;
     border-width: 7px;
     border-style: solid;
@@ -67,14 +67,14 @@
 
 .main-intro-page-body /*Controls the whole background of the index page*/
 {
-    background-image: url("/Images/paint-spill.jpg");
+    background-image: url("/Images/pexels-pixabay-39828.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .body-text
 {
-    background: linear-gradient(crimson, orange, yellow, lime, mediumorchid, violet, pink);
+    background: linear-gradient(magenta, #3739FF, lightgreen);
     margin-top: 150px;
     margin-right: 300px;
     width: 72%;
