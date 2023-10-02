@@ -37,3 +37,6 @@ Route::get('/enterOrgAt', function () {
 Route::get('/forgotPassword', function () {
     return view('ForgotPassword');
 })->name("page.reset.pas");
+Route::get('/donations', function () {
+    return view('donate');
+})->name("page.donate");

@@ -2,5 +2,8 @@
 <!--sign-in page-->
 <link rel="stylesheet" type="text/css" href="/css/app.css">
 
-<h1>ARE YOU AN APPLE OR ARE YOU AN ANDROID</h1>
-</html>
+<body class="faq">
+
+<h1>Give Us Money</h1>
+
+</body>
