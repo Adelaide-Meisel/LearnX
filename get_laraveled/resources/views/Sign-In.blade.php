@@ -37,7 +37,7 @@
 </div>
 
 <div style="font-size: 20px; position:absolute">
-    <a href={{ route("page.reset.pas") }} style="margin-left: 328px">I forgot my password</a>
+    <a href={{ route("page.reset.pas") }} style="margin-left: 272px">I forgot my password</a>
 </div>
 </div>
 </html>

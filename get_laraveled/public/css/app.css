@@ -117,8 +117,8 @@
 {
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 197px;
+    margin-top: 15%;
+    margin-left: 147px;
 } 
 
 #email, #password /*sets how the boxes will look on the inside*/
@@ -197,8 +197,9 @@ textarea {
 
 #middle{ 
     height: 100%;
-    width:700px;
-    background-color: red;
+    width:600px;
+    background: linear-gradient( to right, cyan, #FF6AFF);
     position:absolute;
-    margin-left: 420px;
+    margin-left: 465px;
+
 } 
