@@ -13,7 +13,7 @@
                 </div>-->
 
             <div class="sign-in-create-account">
-                <a type="button" class="Button" value ="Yes" class href={{ route("page.sign.in") }} style="color: white;">Sign-In  </a><a type="button" class="Button" value ="Yes" class href={{ route("page.are.you.org") }} style="color: white;">|  Create New Account</a>
+                <a type="button" value ="Yes" class href={{ route("page.sign.in") }} style="color: white;">Sign-In  </a><a type="button" value ="Yes" class href={{ route("page.are.you.org") }} style="color: white;">|  Create New Account</a>
                 <!--Sign in is sign in, create new needs to go to are you org-->
             </div>
         </div>
@@ -55,12 +55,12 @@
         we take it upon ourselves to better our platform for students and for you. We teach kids
         their 123's, all the way up to thier f(x) = 3x^4 - 2x^3 + 5x^2 - 7x + 9 (The answer is x≈0.5231).
         From their ABC's to fully eassays on complex topics our world faces. For this upcoming 2024-2025
-        school year, we hope to help teachers engage with their students more than they could. We will
+        school year, we hope to help teachers engage with their students more than they could. We
         also offer personalized learning sessions so students can get the most out of their learning.
         We make our system user-friendly so you can get the most out of our site.
         <br> 
         <br>
-        We hope you enjoy LearnX! Click here to make a new account.<!--"click here" should be a link-->
+        We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("page.are.you.org") }}>Click here</a> to make a new account.<!--"click here" should be a link-->
         </p>
     </div>
     
@@ -69,16 +69,16 @@
 <div class="info-div">
     <div>
         <div class="link">
-            <a type="button" class="Button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
+            <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
         </div>
         <div class="link">
-            ABOUT
+            <a type="button" value ="Yes" class href={{ route("page.about") }}>ABOUT</a>
         </div>
         <div class="link">
-            WHY US
+            <a type="button" value ="Yes" class href={{ route("page.why.us") }}>WHY US</a>
         </div>
         <div class="link">
-            DONATE
+            <a type="button" value ="Yes" class href={{ route("page.donate") }}>DONATE</a>
         </div>
         <div class="link">
             WHAT TEACHERS/STUDENTS SAY

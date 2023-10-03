@@ -5,6 +5,8 @@
 <body class="Sign-In-bg">
 </body>
 
+<div id="middle">
+
 <h1>
     <div class="Title">
         LearnX
@@ -34,8 +36,8 @@
     </div>
 </div>
 
-<div style="font-size: 20px">
-    <a href={{ route("page.reset.pas") }} style="margin-left: 730px">I forgot my password</a>
+<div style="font-size: 20px; position:absolute">
+    <a href={{ route("page.reset.pas") }} style="margin-left: 328px">I forgot my password</a>
 </div>
-
+</div>
 </html>

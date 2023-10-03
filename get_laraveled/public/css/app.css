@@ -58,8 +58,8 @@
 .Text-and-Pic
 {
     position:absolute;
-    margin-left: 1095px;
-    margin-top: 25px;
+    margin-left: 1115px;
+    margin-top: 63px;
     border-style: solid;
     border-width: 5px;
     border-color: #7E481C;
@@ -74,7 +74,7 @@
 
 .body-text
 {
-    background: linear-gradient(magenta, #3739FF, lightgreen);
+    background: linear-gradient(magenta, #4862FF, lightgreen);
     margin-top: 150px;
     margin-right: 300px;
     width: 72%;
@@ -118,7 +118,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    margin-left: 39%;
+    margin-left: 197px;
 } 
 
 #email, #password /*sets how the boxes will look on the inside*/
@@ -170,6 +170,13 @@ a:link,a:visited,a:hover,a:active
     /*Change color to make them more obvious*/
 }
 
+#inText
+{
+    color: black;
+    text-decoration: underline;
+    /*Change color to make them more obvious*/
+}
+
 .new-accounts
 {
     background-image: url("/Images/Light-Rainbow-Gradient.jpg");
@@ -183,3 +190,15 @@ a:link,a:visited,a:hover,a:active
 {
     font-size: 64px;
 }
+
+textarea {
+    resize: none;
+  }
+
+#middle{ 
+    height: 100%;
+    width:700px;
+    background-color: red;
+    position:absolute;
+    margin-left: 420px;
+} 

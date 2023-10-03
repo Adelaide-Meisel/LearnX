@@ -40,3 +40,12 @@ Route::get('/forgotPassword', function () {
 Route::get('/donations', function () {
     return view('donate');
 })->name("page.donate");
+Route::get('/reasonToJoin', function () {
+    return view('purposeForJoin');
+})->name("page.purpose.join");
+Route::get('/aboutUs', function () {
+    return view('About-Us');
+})->name("page.about");
+Route::get('/whyUs', function () {
+    return view('whyUs');
+})->name("page.why.us");

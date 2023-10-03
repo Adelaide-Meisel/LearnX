@@ -28,21 +28,21 @@
     <p>LearnX can be contacted at learnxinfo@learnx.org for any problems regarding our site, assignments, or other technical problem
     there may be with our site.</p>
     <br>
-    <h4>What are the terms of service?</h4>
+    <!--<h4>What are the terms of service?</h4>
     <p>Dont be bad</p>
-    <br>
+    <br>-->
     <h4>Is this site mobile-friendly?</h4>
     <p>We are currently working on our site becoming more mobile-friendly. We hope you enjoy the desktop version while you wait!</p>
     <br>
     <h4>Does this site cost money?</h4>
-    <p>We do not have any "premium" accounts. We ask for donations only which you can find <a type="button" class="Button" value ="Yes" class href={{ route("page.donate") }}>here</a></p>
+    <p>We do not have any "premium" accounts. We ask for donations only which you can find <a type="button" id="inText" value ="Yes" class href={{ route("page.donate") }}>here</a></p>
     <br>
     <h4>Can I trust the information on this site?</h4>
     <p>Yes. We do research and run all problems through our employees and other teachers in the U.S. so you can always be assured 
     that your students will never be given anything other than accuracy.</p>
     <br>
     <h4>Can I customize student's experience?</h4>
-    <p>You can add assignments for you students to do but we do not offer a complete remodel of the system.</p>
+    <p>You can add assignments for your students to do but we do not offer a complete remodel of the system.</p>
     <br>
     <!--<h4>Is there a helper forum?</h4>
     <p>There are resources to help you work through our site.</p>-->
@@ -52,16 +52,16 @@
 <div class="info-div">
     <div>
         <div class="link">
-            <a type="button" class="Button" value ="Yes" class href={{ route("page.index") }}>MENU</a> 
+            <a type="button" value ="Yes" class href={{ route("page.index") }}>MENU</a> 
         </div>
         <div class="link">
-            ABOUT
+            <a type="button" value ="Yes" class href={{ route("page.about") }}>ABOUT</a>
         </div>
         <div class="link">
-            WHY US
+            <a type="button" value ="Yes" class href={{ route("page.why.us") }}>WHY US</a>
         </div>
         <div class="link">
-            DONATE
+            <a type="button" value ="Yes" class href={{ route("page.donate") }}>DONATE</a>
         </div>
         <div class="link">
             WHAT TEACHERS/STUDENTS SAY
