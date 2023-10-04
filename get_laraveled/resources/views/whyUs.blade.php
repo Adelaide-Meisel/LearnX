@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 
-<h1>We're no strangers to love<br>
-    You know the rules and so do I <br>
-    A full commitment's what I'm thinking of<br>
-    You wouldn't get this from any other guy<br>
-    I just wanna tell you how I'm feeling<br>
-    Gotta make you understand<br>
-    Never gonna give you up<br>
-    Never gonna let you down<br>
-    Never gonna run around and desert you<br>
-    Never gonna make you cry<br>
-    Never gonna say goodbye<br>
-    Never gonna tell a lie and hurt you<br>
-</h1>
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+
+<div class="Text-and-Pic">
+    <div>
+        <img src="/Images/Calculator-On-Notepad.jpg" width="400" height="450" style="float: right;" ><!--DON'T PUT ANYTHING HERE, THIS IS FOR PIC ONLY-->
+    </div>
+    <div style="position: absolute; margin-top: 27px; margin-left: 210px; font-size: 25px; font-family: Arial, Helvetica, sans-serif;">
+        LearnX made learning in school so much easier! -Larua Don<br>
+        <br>
+        School and LearnX equals success. - Kelly Hemp<br>
+    </div>
+    <div style="position: absolute; margin-top: 330px; margin-left: 25px; font-size: 25px; font-family: Arial, Helvetica, sans-serif;">
+        All schools should use LearnX! My child is so successful in school now! -Brooke Asher
+    </div>
+</div>
 
 </html>
