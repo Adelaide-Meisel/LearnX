@@ -51,4 +51,7 @@ Route::get('/whyUs', function () {
 })->name("page.why.us");
 Route::get('/whatPeopleSay', function () {
     return view('whatPeopleSay');
-})->name("page.reviewss");
+})->name("page.reviews");
+Route::get('/childsEmail', function () {
+    return view('getChildEmail');
+})->name("page.email");

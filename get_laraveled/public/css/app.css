@@ -75,10 +75,10 @@
     position:absolute;
     margin-left: 900px;
     background: linear-gradient(magenta, #4862FF, lightgreen);
-    width: 615px;
+    width: 605px;
     height: 550Px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 21px;
 }
 
 .info-div /*controls everything about the info div at the bottom of the 
@@ -138,7 +138,7 @@
     text-align: center;
     font-size: 125px;
     position: relative;
-    top: 100px;
+    top: 75px;
 }
 
 .Title /*changes the text for "LearnX"*/
@@ -159,6 +159,7 @@
 
 .faq
 {
+    position:absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     background-image: url("/Images/Light-Rainbow-Gradient.jpg");
