@@ -49,3 +49,6 @@ Route::get('/aboutUs', function () {
 Route::get('/whyUs', function () {
     return view('whyUs');
 })->name("page.why.us");
+Route::get('/whatPeopleSay', function () {
+    return view('whatPeopleSay');
+})->name("page.reviewss");

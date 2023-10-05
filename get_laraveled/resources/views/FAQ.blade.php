@@ -64,7 +64,7 @@
             <a type="button" value ="Yes" class href={{ route("page.donate") }}>DONATE</a>
         </div>
         <div class="link">
-            WHAT TEACHERS/STUDENTS SAY
+            <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
         </div>
     </div>
 </div>
