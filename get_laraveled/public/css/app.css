@@ -40,7 +40,7 @@
 
 .slogan /*Controls the text of the slogan for LearnX*/
 {
-    background: linear-gradient(yellow, #00F6FF, #4862FF, #FF3737);
+    background: linear-gradient(rgb(217, 2, 2), orange, rgb(247, 247, 25), rgb(39, 193, 39), rgb(79, 122, 221), rgb(193, 57, 193));
     border-color: #161718;
     border-width: 7px;
     border-style: solid;
@@ -67,9 +67,7 @@
 
 .main-intro-page-body /*Controls the whole background of the index page*/
 {
-    background-image: url("/Images/pexels-pixabay-39828.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(205, 186, 203);
 }
 
 .body-text
@@ -77,9 +75,8 @@
     position:absolute;
     margin-left: 900px;
     background: linear-gradient(magenta, #4862FF, lightgreen);
-    margin-top: 5px;
-    width: 600px;
-    height: 500Px;
+    width: 615px;
+    height: 550Px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
@@ -91,16 +88,16 @@
     background-size: cover;
     background-position: center;
     border-style: solid;
-    border-width: 5px;
+    border-width: 7px;
     border-color: #000000;
     font-family: 'Preahvihear';
     font-size: 30px;
     text-align: center;
     height: 69px;
-    width: 98%;
+    width: 98.5%;
     /*margin-bottom: auto;*/
     position:absolute;
-    margin-top: 535px;
+    margin-top: 552px;
 }
 
 .link /*controls how text looks and 

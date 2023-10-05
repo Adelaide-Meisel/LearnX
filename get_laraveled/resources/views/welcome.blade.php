@@ -42,7 +42,7 @@
 <body class="main-intro-page-body">
 
     <div class="body-text">
-        <p><!-- put margins here -->
+        <p style="margin: 15px; margin-top: 25px">
         LearnX, a place for students K-12 to strive and grow through their educational learning.
         We strive to make every year count as your students grow throught this program. At LearnX
         we take it upon ourselves to better our platform for students and for you. We teach kids
@@ -52,6 +52,9 @@
         also offer personalized learning sessions so students can get the most out of their learning.
         We make our system user-friendly so you can get the most out of our site.
         <br> 
+        <br>
+        <br> 
+        <br>
         <br>
         We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("page.are.you.org") }}>Click here</a> to make a new account.<!--"click here" should be a link-->
         </p>
