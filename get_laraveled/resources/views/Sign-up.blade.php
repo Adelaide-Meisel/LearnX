@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="/css/app.css">
 
-<div>
+<div style="position:absolute; margin-right: 25px; margin-left: 505px;">
     <p>Please leave your name, your email, and a message to me.<br>
     <form>
         <label for="fname">First name:</label><br>
