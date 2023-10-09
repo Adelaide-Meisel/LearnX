@@ -20,4 +20,27 @@
 
 
 
+
+<div class="info-div">
+    <div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.about") }}>ABOUT</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.why.us") }}>WHY US</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.donate") }}>DONATE</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
+        </div>
+    </div>
+</div>
+
+
+
 </html>

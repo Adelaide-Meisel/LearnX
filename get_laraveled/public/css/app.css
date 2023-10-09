@@ -206,7 +206,7 @@ textarea {
     margin-top: 0px;
     margin-bottom: 0px;
 } 
-
+/*
 #orgAt, #homeSchool{
     display: none;
 }
@@ -217,4 +217,4 @@ textarea {
 
 #choice2:checked ~ #homeSchool{
     display: block;
-}
+}*/

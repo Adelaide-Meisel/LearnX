@@ -14,7 +14,7 @@
     <br>
 
     Our core values are: respect, responsiblity, courage, honesty, teamwork, open-midedness, freedom, and equality
-
+</p>
     <!-- 
         Brodie: 
         Adelaide: teamwork equlity
@@ -23,4 +23,23 @@
     -->
 
 
+    <div class="info-div">
+    <div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.about") }}>ABOUT</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.why.us") }}>WHY US</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.donate") }}>DONATE</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
+        </div>
+    </div>
+</div>
 </html>

@@ -13,7 +13,7 @@
                 </div>-->
 
             <div class="sign-in-create-account">
-                <a type="button" value ="Yes" class href={{ route("page.sign.in") }} style="color: white;">Sign-In  </a><a type="button" value ="Yes" class href={{ route("page.are.you.org") }} style="color: white;">|  Create New Account</a>
+                <a type="button" value ="Yes" class href={{ route("page.sign.in") }} style="color: white;">Sign-In  </a><a type="button" value ="Yes" class href={{ route("page.sign.up") }} style="color: white;">|  Create New Account</a>
                 <!--Sign in is sign in, create new needs to go to are you org-->
             </div>
         </div>
@@ -56,7 +56,7 @@
         <br> 
         <br>
         <br>
-        We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("page.are.you.org") }}>Click here</a> to make a new account.<!--"click here" should be a link-->
+        We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("page.sign.up") }}>Click here</a> to make a new account.<!--"click here" should be a link-->
         </p>
     </div>
     
