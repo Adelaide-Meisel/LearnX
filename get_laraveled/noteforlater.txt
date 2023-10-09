@@ -1,0 +1,6 @@
+run  php artisan make:controller UserController 
+
+then 
+
+use brads repo and tutorial to make user controllers. 
+use post and the page.name.name stuff for the actions on forms
