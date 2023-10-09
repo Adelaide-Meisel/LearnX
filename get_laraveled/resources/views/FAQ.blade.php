@@ -5,7 +5,7 @@
 
 <div class="faq">
 
-    <h1 style="text-align: center;">FAQ</h1>
+    <h1 style="text-align: center; ">FAQ</h1>
 
     
     <h4>What is better about LearnX?</h4>
@@ -49,7 +49,7 @@
 
 
 
-<div class="info-div">
+<div class="info-div" style="margin-top: 0px">
     <div>
         <div class="link">
             <a type="button" value ="Yes" class href={{ route("page.index") }}>MENU</a> 

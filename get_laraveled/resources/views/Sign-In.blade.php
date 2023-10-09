@@ -14,7 +14,7 @@
     </h1>
 
     <div style="position=absolute; font-family: Preahvihear; font-size: 18; margin-left: 20px"><!--make link-->
-        <<< Go Back
+        <a href={{ route("page.index") }}><<< Go Back<a>
     </div>
 
     <div class="sign-in">

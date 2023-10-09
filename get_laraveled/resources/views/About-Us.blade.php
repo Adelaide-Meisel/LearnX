@@ -13,7 +13,14 @@
     Our team includes: Adelaide Meisel, Brodie Kirby, Camran Hamilton, and Thomas Whitaker
     <br>
 
-    Our core values are: interity, respect, 
+    Our core values are: respect, responsiblity, courage, honesty, teamwork, open-midedness, freedom, and equality
+
+    <!-- 
+        Brodie: 
+        Adelaide: teamwork equlity
+        Camron:
+        Tommy :
+    -->
 
 
 </html>

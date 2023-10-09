@@ -55,3 +55,6 @@ Route::get('/whatPeopleSay', function () {
 Route::get('/childsEmail', function () {
     return view('getChildEmail');
 })->name("page.email");
+Route::get('/sign-up', function () {
+    return view('Sign-up');
+})->name("page.sign.up");     

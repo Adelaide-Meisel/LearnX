@@ -95,7 +95,7 @@
     text-align: center;
     height: 69px;
     width: 98.5%;
-    /*margin-bottom: auto;*/
+    margin-bottom: auto;
     position:absolute;
     margin-top: 552px;
 }
@@ -206,3 +206,15 @@ textarea {
     margin-top: 0px;
     margin-bottom: 0px;
 } 
+
+#orgAt, #homeSchool{
+    display: none;
+}
+
+#choice1:checked ~ #orgAt{
+    display: block;
+}
+
+#choice2:checked ~ #homeSchool{
+    display: block;
+}
