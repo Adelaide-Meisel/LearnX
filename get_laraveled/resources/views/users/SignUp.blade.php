@@ -10,23 +10,38 @@
         @csrf <!--Makes it so people cant use scripts against your site-->
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"  value="{{old('name')}}"><br>
-        <!--Gets name-->
+        @error('name')
+            <p style="color:red">{{$message}}</p>
+        @enderror
+        <!--Gets name. Errors if you dont put it in or it is incorrect-->
         <label for="mail">Email:</label><br>
         <input type="email" id="mail" name="email" value="{{old('email')}}"><br>
-        <!--Gets email-->
+        @error('email')
+            <p style="color:red">{{$message}}</p>
+        @enderror
+        <!--Gets email. Errors if you dont put it in or it is incorrect-->
         <label for="password">Password:</label><br>
         <input type="password" id="newPassword" name="password" value="{{old('password')}}"><br>
-        <!--Gets password-->
+        @error('password')
+            <p style="color:red">{{$message}}</p>
+        @enderror
+        <!--Gets password. Errors if you dont put it in or it is incorrect-->
         <label for="passord2">Confirm Password:</label><br>
         <input type="password" id="password2" name="password_confirmation" value="{{old('password_confirmation')}}"><br>
-        <!--Confirms password with a custom name-->
-        <input type="radio" id="choice1" name="choice" value="Org">
+        @error('password_confirmation')
+            <p style="color:red">{{$message}}</p>
+        @enderror
+        <!--Confirms password with a custom confirmation name. Errors if you dont put it in or it is incorrect-->
+        <input type="radio" id="choice1" name="radio" value="Org">
         <label for="choice1"> I am an organization</label><br>
-        <input type="radio" id="choice2" name="choice" value="Teacher">
+        <input type="radio" id="choice2" name="radio" value="Teacher">
         <label for="choice2"> I am a teacher</label><br>
-        <input type="radio" id="choice3" name="choice" value="Student">
+        <input type="radio" id="choice3" name="radio" value="Student">
         <label for="choice3"> I am a student</label><br>
-        <!--Gets your position-->
+        @error('radio')
+            <p style="color:red">{{$message}}</p>
+        @enderror
+        <!--Gets your position and errors if you dont pick one-->
         <!--Will add parts next to make it get small errors under the inputs if
         they arent good, along with other features.-->
 

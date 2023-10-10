@@ -35,10 +35,18 @@
             <div class="sign-in-box">
                 <div>
                     <input type="text" id="email" name="email" value="{{old('email')}}">
+                    @error('email')
+                        <p style="color:red">{{$message}}</p>
+                    @enderror
                 </div>
+
                 <div>
                     <input type="text" id="password" name="password" value="{{old('password')}}">
+                    @error('password')
+                        <p style="color:red">{{$message}}</p>
+                    @enderror
                 </div>
+                <!--Gets your input and tries to verify your account info. Errors and will just tell you its wrong.-->
             </div>
         </form>
 
