@@ -218,3 +218,13 @@ textarea {
 #choice2:checked ~ #homeSchool{
     display: block;
 }*/
+
+.whyUs
+{
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    width: 1425px;
+    height: auto;
+}

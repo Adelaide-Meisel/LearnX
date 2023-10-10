@@ -29,14 +29,16 @@
                     height: 60px;
                 }
         </style>
-        <div class="sign-in-box">
-            <div>
-                <input type="text" id="email" name="email" placeholder="Email">
+        <form method="POST" action="/users/authenticate">
+            <div class="sign-in-box">
+                <div>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" id="password" name="password" placeholder="Password">
+                </div>
             </div>
-            <div>
-                <input type="text" id="password" name="password" placeholder="Password">
-            </div>
-        </div>
+        </form>
 
     <div style="font-size: 20px; position:absolute">
         <a href={{ route("page.reset.pas") }} style="margin-left: 272px">I forgot my password</a>
