@@ -29,13 +29,15 @@
                     height: 60px;
                 }
         </style>
+        <!--Goes to the authenticate route and then to the UserController-->
         <form method="POST" action="/users/authenticate">
+            @csrf <!--Makes it so people cant use scripts against your site-->
             <div class="sign-in-box">
                 <div>
-                    <input type="text" id="email" name="email" placeholder="Email">
+                    <input type="text" id="email" name="email" value="{{old('email')}}">
                 </div>
                 <div>
-                    <input type="text" id="password" name="password" placeholder="Password">
+                    <input type="text" id="password" name="password" value="{{old('password')}}">
                 </div>
             </div>
         </form>
@@ -45,7 +47,7 @@
     </div>
 
     <div style= "font-family: Preahvihear; font-size: 30px; position: absolute; margin-left: 225px; margin-top: 50px";>
-    <a>Lets Go >>><a><!--put link to signed in home page-->
+    <a>Lets Go >>><a><!--turn into submit button and then have it redirect to the signed in page-->
 </div>
 
 </div>

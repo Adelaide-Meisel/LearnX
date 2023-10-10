@@ -66,6 +66,7 @@
         <div class="link">
             <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
         </div>
+        <!--Links to various places on the website-->
     </div>
 </div>
 

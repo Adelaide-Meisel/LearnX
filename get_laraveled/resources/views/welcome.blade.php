@@ -56,7 +56,7 @@
         <br> 
         <br>
         <br>
-        We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("signup") }}>Click here</a> to make a new account.<!--"click here" should be a link-->
+        We hope you enjoy LearnX! <a type="button" id="inText" value ="Yes" class href={{ route("signup") }}>Click here</a> to make a new account.<!--Goes to routes and goes to the respective pages for login and sign up-->
         </p>
     </div>
     
@@ -79,6 +79,7 @@
         <div class="link">
             <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
         </div>
+        <!--Links to various places on the website-->
     </div>
 </div>
 
