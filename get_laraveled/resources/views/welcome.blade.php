@@ -42,7 +42,7 @@
 <body class="main-intro-page-body">
 
     <div class="body-text">
-        <p >
+        <p style="margin: 10px; margin-top: 25px">
         LearnX, a place for students K-12 to strive and grow through their educational learning.
         We strive to make every year count as your students grow throught this program. At LearnX
         we take it upon ourselves to better our platform for students and for you. We teach kids

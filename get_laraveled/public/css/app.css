@@ -74,8 +74,8 @@
 {
     position:absolute;
     margin-left: 900px;
-    background: linear-gradient(magenta, #4862FF, lightgreen);
-    width: 605px;
+    background: linear-gradient(magenta, #5E75FF, lightgreen);
+    width: 625px;
     height: 550Px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
@@ -206,6 +206,23 @@ textarea {
     margin-top: 0px;
     margin-bottom: 0px;
 } 
+
+.whyUs
+{
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    width: 1425px;
+    height: auto;
+}
+
+.AboutPics
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10;
+}
+
 /*
 #orgAt, #homeSchool{
     display: none;
@@ -218,13 +235,3 @@ textarea {
 #choice2:checked ~ #homeSchool{
     display: block;
 }*/
-
-.whyUs
-{
-    margin-top: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    position: absolute;
-    width: 1425px;
-    height: auto;
-}

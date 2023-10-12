@@ -16,11 +16,31 @@
     Our core values are: respect, responsiblity, courage, honesty, teamwork, open-midedness, freedom, and equality
 </p>
     <!-- 
-        Brodie: 
+        Brodie: Responsiblitly honesty
         Adelaide: teamwork equlity
         Camron:
         Tommy :
     -->
+
+    <div>
+        <div>
+            <div class ="AboutPics">
+                Adelaide Meisel
+                <img src="/Images/Adelaide_Meisel.png" alt="Image cannot load" width="400px" height="300px">
+            </div>
+
+            <div class ="AboutPics">
+            </div>
+        </div>
+        
+        <div>
+            <div class ="AboutPics">
+            </div>
+
+            <div class ="AboutPics">
+            </div>
+        </div>
+    </div>
 
 
     <div class="info-div">
