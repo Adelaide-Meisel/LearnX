@@ -222,6 +222,12 @@ textarea {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10;
 }
+input[type=submit]{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0)
+}
 
 /*
 #orgAt, #homeSchool{

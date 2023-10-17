@@ -34,17 +34,20 @@
             @csrf <!--Makes it so people cant use scripts against your site-->
             <div class="sign-in-box">
                 <div>
-                    <input type="text" id="email" name="email" value="{{old('email')}}">
+                    <input type="text" id="email" name="email" placeholder="Email" value="{{old('email')}}">
                     @error('email')
                         <p style="color:red">{{$message}}</p>
                     @enderror
                 </div>
 
                 <div>
-                    <input type="text" id="password" name="password" value="{{old('password')}}">
+                    <input type="text" id="password" name="password" placeholder="Password" value="{{old('password')}}">
                     @error('password')
                         <p style="color:red">{{$message}}</p>
                     @enderror
+                </div>
+                <div style= " position: absolute; margin-left: 75px; margin-top: 50px; ">
+                    <input style="font-family: Preahvihear; font-size: 30px;"type="submit" id="submit" name="submit" value="Lets Go >>>">
                 </div>
                 <!--Gets your input and tries to verify your account info. Errors and will just tell you its wrong.-->
             </div>
@@ -53,10 +56,6 @@
     <div style="font-size: 20px; position:absolute">
         <a href={{ route("page.reset.pas") }} style="margin-left: 272px">I forgot my password</a>
     </div>
-
-    <div style= "font-family: Preahvihear; font-size: 30px; position: absolute; margin-left: 225px; margin-top: 50px";>
-    <a>Lets Go >>><a><!--turn into submit button and then have it redirect to the signed in page-->
-</div>
 
 </div>
 </html>
