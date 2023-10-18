@@ -19,6 +19,9 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 })->name("page.index");
+Route::get('/home', function () {
+    return view('home');
+})->name("page.home");
 
 //Goes to FAQ
 Route::get('/FAQ', function () {
