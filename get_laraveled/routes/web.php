@@ -58,14 +58,6 @@ Route::get('/whatPeopleSay', function () {
     return view('whatPeopleSay');
 })->name("page.reviews");
 
-/*Route::get('/SignIn', function () {
-    return view('Sign-in');
-})->name("page.sign.in");
-
-Route::get('/sign-up', function () {
-    return view('Sign-up');
-})->name("page.sign.up");*/
-
 
 // Show Register/Create Form through create function in UserController
 Route::get('/SignUp', [UserController::class, 'create'])->name('signup')->middleware('guest');

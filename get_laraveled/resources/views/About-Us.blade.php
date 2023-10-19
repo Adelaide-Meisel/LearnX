@@ -22,7 +22,7 @@
         Tommy :
     -->
 
-    <div>
+    <div><!--Gets words to be next to pics-->
         <div>
             <div class ="AboutPics">
                 
