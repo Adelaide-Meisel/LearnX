@@ -34,5 +34,5 @@
             </div>
             <!--Links to various places on the website-->
         </div>
-    </d>
+    </div>
 </html>
