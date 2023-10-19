@@ -13,8 +13,8 @@
         </div>
     </h1>
 
-    <div style="position=absolute; font-family: Preahvihear; font-size: 18; margin-left: 20px"><!--make link-->
-        <a href={{ route("page.index") }}><<< Go Back<a>
+    <div style="position=absolute; font-family: Preahvihear; font-size: 18; margin-left: 20px">
+        <a href={{ route("page.index") }}><<< Go Back<a><!--Goes back to index-->
     </div>
 
     <div class="sign-in">
@@ -49,7 +49,8 @@
                 <div style= " position: absolute; margin-left: 75px; margin-top: 50px; ">
                     <input style="font-family: Preahvihear; font-size: 30px;"type="submit" id="submit" name="submit" value="Lets Go >>>">
                 </div>
-                <!--Gets your input and tries to verify your account info. Errors and will just tell you its wrong.-->
+                <!--Gets your input and tries to verify your account info. endError sections determine what will happen if they input the
+                wrong info -->
             </div>
         </form>
 

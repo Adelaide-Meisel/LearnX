@@ -67,19 +67,19 @@ Route::get('/sign-up', function () {
 })->name("page.sign.up");*/
 
 
-// Show Register/Create Form
+// Show Register/Create Form through create function in UserController
 Route::get('/SignUp', [UserController::class, 'create'])->name('signup')->middleware('guest');
 
-// Create New User
+// Create New User through store function in UserController
 Route::post('/users', [UserController::class, 'store']);
 
-// Log User Out
+// Log User Out through log out function in UserController
 Route::post('/logout', [UserController::class, 'logout'])->name('logout')->middleware('auth');
 
-// Show Login Form
+// Show Login Form login function in UserController
 Route::get('/SignIn', [UserController::class, 'login'])->name('signin')->middleware('guest');
 
-// Log In User
+// Log In User through authenticate function in UserController
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
    
 

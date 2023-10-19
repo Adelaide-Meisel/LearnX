@@ -45,7 +45,7 @@
                 Responsiblity: At LearnX we care a lot about responsibility. The most successful people must be very responsible to 
                 get as far as they do, and just as much so to stay there. We make sure any student who uses our platform has the 
                 ability to learn how to be responsible and work their way to the top.
-            </div>
+            </div><!--Feel free to tell me or change it if it isnt good-->
         </div>
         
         <div>

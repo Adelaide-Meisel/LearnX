@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="link">
-            <a type="button" value ="Yes" class href={{ route("logout") }}>LOG OUT</a>
+            <a type="button" value ="Yes" class href={{ route("logout") }}>LOG OUT</a><!--Logs out user through log out route-->
         </div>
     </body>
 </html>

@@ -10,15 +10,15 @@ class UserController extends Controller
 {
     // Show Register/Create Form
     public function create() {
-        return view('users.SignUp');
+        return view('users.SignUp'); //goes to sign up page
     }
 
     // Create New User
     public function store(Request $request) {
         $formFields = $request->validate([
-            'name' => ['required', 'min:3'],
-            'email' => ['required', 'email', Rule::unique('users', 'email')],
-            'password' => 'required|confirmed|min:6',
+            'name' => ['required', 'min:3'],//Gets the users name and makes sure it is 3 characters long and declares it required
+            'email' => ['required', 'email', Rule::unique('users', 'email')], //Gets email and declares it required. It also makes user it is email format
+            'password' => 'required|confirmed|min:6', //Gets password and makes sure it is Confirmed and 6 Characters long. Also declares it required
             //'radio' => 'required'
         ]);
 
@@ -28,7 +28,7 @@ class UserController extends Controller
         // Create User
         $user = User::create($formFields);
 
-        // Login
+        // Login 
         auth()->login($user);
 
         return redirect('/home')->with('message', 'User created and logged in');
@@ -38,8 +38,8 @@ class UserController extends Controller
     public function logout(Request $request) {
         auth()->logout();
 
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
+        $request->session()->invalidate(); //Invalidates session
+        $request->session()->regenerateToken(); // Regenerates the session token/cookie.
 
         return redirect('/')->with('message', 'You have been logged out!');
 
@@ -47,22 +47,23 @@ class UserController extends Controller
 
     // Show Login Form
     public function login() {
-        return view('users.SignIn');
+        return view('users.SignIn'); // Goes to sign in page
     }
 
     // Authenticate User
     public function authenticate(Request $request) {
         $formFields = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => 'required'
+            'email' => ['required', 'email'], //Requires you put in an email and gets it
+            'password' => 'required' // Requires you put something in for the password and gets it
         ]);
 
-        if(auth()->attempt($formFields)) {
-            $request->session()->regenerate();
+        if(auth()->attempt($formFields)) { // Checks to see if it is right
+            $request->session()->regenerate(); //Regenerates session as valid
 
             return redirect('/home')->with('message', 'You are now logged in!');
         }
 
-        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput('email');
+        return back()->withErrors(['email' => 'Invalid Credentials'])->onlyInput('email'); 
+        // Returns error for only under email so it says only "Invalid Credentials". This is for security reasons
     }
 }
