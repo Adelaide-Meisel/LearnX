@@ -98,6 +98,7 @@
     margin-bottom: auto;
     position:absolute;
     margin-top: 552px;
+    bottom:0;
 }
 
 .link /*controls how text looks and 
@@ -221,12 +222,18 @@ textarea {
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10;
+    position: absolute;
 }
 input[type=submit]{
     border: none;
     text-decoration: none;
     cursor: pointer;
     background-color: rgba(0,0,0,0)
+}
+.AboutDescription{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 0px;
 }
 
 /*
