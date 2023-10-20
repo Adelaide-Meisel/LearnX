@@ -94,11 +94,10 @@
     font-size: 30px;
     text-align: center;
     height: 69px;
+    margin-top:548px;
     width: 98.5%;
-    margin-bottom: auto;
     position:absolute;
-    margin-top: 552px;
-    bottom:0;
+    
 }
 
 .link /*controls how text looks and 
@@ -217,23 +216,22 @@ textarea {
     width: 1425px;
     height: auto;
 }
-
-.AboutPics
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10;
-    position: absolute;
-}
 input[type=submit]{
     border: none;
     text-decoration: none;
     cursor: pointer;
     background-color: rgba(0,0,0,0)
 }
+.AboutPics
+{
+    position: absolute;
+}
 .AboutDescription{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     margin-left: 300px;
     margin-top: 0px;
+    font-size: 20px;
 }
 
 /*

@@ -57,7 +57,7 @@ class UserController extends Controller
             'password' => 'required' // Requires you put something in for the password and gets it
         ]);
 
-        if(auth()->attempt($formFields)) { // Checks to see if it is right
+        if(auth()->attempt($formFields)) { // Checks to see if credentials are right
             $request->session()->regenerate(); //Regenerates session as valid
 
             return redirect('/home')->with('message', 'You are now logged in!');

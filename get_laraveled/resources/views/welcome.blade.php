@@ -62,7 +62,7 @@
     
 </body>
 
-<div class="info-div">
+<div class="info-div" >
     <div>
         <div class="link">
             <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
