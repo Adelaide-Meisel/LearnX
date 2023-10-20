@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--sign-in page-->
+
 <link rel="stylesheet" type="text/css" href="/css/app.css">
 
-<body class="faq">
+<body style="background-color: #C7DDFF;">
 
 <div>
 

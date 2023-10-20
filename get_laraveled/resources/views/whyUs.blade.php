@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <body style="background-color: #FBF6CE;">
+    <body style="background-color: #E5FFA1;">
     
         <h1 style="text-align: center; text-decoration:underline;">Why Us?</h1>
         <div class="whyUs">
@@ -11,7 +11,7 @@
             information they will need to learn as best as they can. With LearnX students get the best education <br>
             they can get. Our website is easy to navigate and easy for teachers to help students. Teachers can <br>
             add their own assignments and eaisily put them into the gradebook. All of our assignments, quizzes, <br>
-            and tests challenge and push students as they grow. We don't haveany premium account because <br>
+            and tests challenge and push students as they grow. We don't have any premium account because <br>
             of our belifs that every child deserves a fair and free education. We do ask for donations which you<br> 
             can find at the bottom of the screen.
             </p>

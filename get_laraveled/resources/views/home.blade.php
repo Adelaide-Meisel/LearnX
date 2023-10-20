@@ -7,8 +7,9 @@
         </h1>
     </head>
     <body>
-        <div class="link">
-            <a type="button" value ="Yes" class href={{ route("logout") }}>LOG OUT</a><!--Logs out user through log out route-->
-        </div>
+        <form method="POST" action="/logout">
+            @csrf
+            <input type="submit" id="submit" name="submit" value="Logout">
+        </form>
     </body>
 </html>
