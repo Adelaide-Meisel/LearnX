@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="/css/app.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Laravel">
+    <meta name="author" content="Brodie Kirby And Adelaide Meisel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <body style="background-color: #FFEFDA;">
     <p style="font-size: 18px;">
         Hello! You've made it to LearnX!
@@ -27,7 +35,7 @@
             </div>
             <div class ="AboutDescription">
                 <p>
-                I am one of the Co-founders of LearnX. I have designed this website to be easy to interact with, easy to teach, 
+                I am the founder of LearnX. I have designed this website to be easy to interact with, easy to teach, 
                 and easy to learn. I want students to be able to learn the fundamentals of education through our site. Thank you 
                 for supporting us. 
                 <br>
@@ -49,7 +57,7 @@
                 <img src="/Images/Brodie_Kirby.png" alt="Image cannot load" width="290px" height="340px">
             </div>
             <div class="AboutDescription" style="margin-top:350px">
-                <p>I am one of the co-founders of LearnX. I helped build this website from the ground up with the goal of 
+                <p>I am the co-founder of LearnX. I helped build this website from the ground up with the goal of 
                 bringing good education to all. I have always wanted to lead something important and helpful for the world, 
                 and here at LearnX I finally have the chance. I am a programming hobbyist and hope to be one of the leading 
                 supports for any teacher who wishes to bring programming to the classroom. By working at LearnX I understand 
@@ -71,7 +79,23 @@
                 <img src="/Images/Cameron_Hamilton.png" alt="Image cannot load" width="290px" height="340px">
             </div>
             <div class="AboutDescription" style="margin-top:700px">
-                <p>Cameron Hamiltons about goes here</p>
+                <p>
+                    I'm fortunate to be part of the team behind LearnX, to transform the way people learn. Collaborating with a 
+                    group of dedicated individuals, I've been able to contribute to the development of this innovative learning 
+                    platform. I've gained valuable experience as we strive to make education more accessible and engaging. It's 
+                    been a rewarding journey, knowing that my work plays a part in helping learners of all backgrounds expand 
+                    their knowledge. I look forward to the future as we continue to refine and improve LearnX.
+                    <br>
+                    <br>
+                    <br>
+                    Respect: LearnX is a platform that fosters a culture of respect by promoting inclusive and diverse learning 
+                    environments, where individuals from various backgrounds and perspectives are encouraged to engage in 
+                    meaningful discussions.
+                    <br>
+                    <br>
+                    Open-mindedness: Open-mindedness is a core value at LearnX, encouraging learners to explore new ideas and viewpoints with 
+                    curiosity, while also valuing the contributions of others, leading to a more enriching educational experience. 
+                </p>
             </div>
             <div class ="AboutPics" style="margin-top:1050px">
                 <img src="/Images/Thomas_Whitaker.png" alt="Image cannot load" width="290px" height="340px">
