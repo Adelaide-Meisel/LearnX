@@ -233,7 +233,14 @@ input[type=submit]{
     margin-top: 0px;
     font-size: 20px;
 }
-
+.donation-box /*the boxes for typing in donation information*/
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 600px;
+    /*Get input font bigger*/
+} 
 /*
 #orgAt, #homeSchool{
     display: none;
