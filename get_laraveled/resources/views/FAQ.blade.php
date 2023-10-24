@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<body style="background-color: #9b84ff">
 <div class="faq">
 
     <h1 style="text-align: center; ">FAQ</h1>
@@ -52,7 +53,7 @@
     <br>
     <!--<h4>Is there a helper forum?</h4>
     <p>There are resources to help you work through our site.</p>-->
-
+</body>
 
 
 <div class="info-div" style="margin-top: 0px">

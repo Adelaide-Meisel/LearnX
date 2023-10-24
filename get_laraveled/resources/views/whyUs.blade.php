@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-    <body style="background-color: #E5FFA1;">
+    <body style="background-color: #9b84ff">
     
         <h1 style="text-align: center; text-decoration:underline;">Why Us?</h1>
         <div class="whyUs">

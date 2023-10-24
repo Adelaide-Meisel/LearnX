@@ -9,42 +9,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-color: #C7DDFF;">
+<body style="background-color: #91ffa5;">
 
 <div>
 
-<h1 style="text-align: center">LearnX Can't Do It Alone</h1>
-<p style="text-align: center; font-size: 18px">
-    We apperciate your donation, please type in the amount you wish to donate below:
-</p>
-    <style>
-        input[type="text"]
-            {
-                width: 300px;
-                height: 60px;
-            }
-    </style>
+    <h1 style="text-align: center">LearnX Can't Do It Alone</h1>
+    <p style="text-align: center; font-size: 18px">
+        We apperciate your donation, please type in the amount you wish to donate below:
+    </p>
+        <style>
+            input[type="text"]
+                {
+                    width: 300px;
+                    height: 60px;
+                }
+        </style>
 
     <form method="POST" action="/users/authenticate" style="position:absolute;">
         @csrf <!--Makes it so people cant use scripts against your site-->
             <div class="donation-box">
                 Dollar Amount
                 <div>
-                    <input type="text" id="dollar" name="dollar" placeholder="Dollar Amt" value="{{old('dollar')}}">
+                    <input type="text" id="dollar" name="dollar" placeholder="Dollar Amt" value="{{old('dollar')}}" style="font-size:1.5rem">
                 </div>
                     <br>
                     <br>
                     <br>
                     Credit/Debit Card #
                 <div>
-                    <input type="text" id="Cred-Deb" name="Cred-Deb" placeholder="Card #" value="{{old('Cred-Deb')}}">
+                    <input type="text" id="Cred-Deb" name="Cred-Deb" placeholder="Card ####-####-####-####" value="{{old('Cred-Deb')}}" style="font-size:1.5rem">
                 </div>
                     <br>
                     <br>
                     <br>
                     CVC
                 <div>
-                    <input type="text" id="CVC" name="CVC" placeholder="CVC" value="{{old('CVC')}}">
+                    <input type="text" id="CVC" name="CVC" placeholder="CVC" value="{{old('CVC')}}" style="font-size:1.5rem">
                 </div>
                     <!--submit button-->
                 <div style= "position: absolute; margin-left: 75px; margin-top: 50px; ">
@@ -55,6 +55,29 @@
             </div>
         </form>
 
-<div>
+</div>
+
+<div class="info-div" style="margin-top: 540px">
+    <div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.about") }}>ABOUT</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.why.us") }}>WHY US</a>
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.index") }}>MENU</a> 
+        </div>
+        <div class="link">
+            <a type="button" value ="Yes" class href={{ route("page.reviews") }}>WHAT TEACHERS/STUDENTS SAY</a>
+        </div>
+        <!--Links to various places on the website-->
+    </div>
+</div>
 
 </body>
+
+</html>

@@ -33,9 +33,9 @@
     </div>
 </div>
 
-<div style="width: 325px; height: 125px;" class="slogan">
+<div style="width: 260px; height: 125px;" class="slogan">
     <div>
-        LearnX: A+ Students
+                A+ Students
     </div>
     <div class="slogan-Asgl">
                 A+ Grades
@@ -48,8 +48,8 @@
 
 <body class="main-intro-page-body">
 
-    <div class="body-text">
-        <p style="margin: 10px; margin-top: 25px">
+    <div class="body-text" style=" border-left: 5px solid black;">
+        <p style="margin: 10px; margin-top: 25px;">
         LearnX, a place for students K-12 to strive and grow through their educational learning.
         We strive to make every year count as your students grow throught this program. At LearnX
         we take it upon ourselves to better our platform for students and for you. We teach kids
@@ -69,7 +69,7 @@
     
 </body>
 
-<div class="info-div" >
+<div class="info-div" style="margin-top:550px;">
     <div>
         <div class="link">
             <a type="button" value ="Yes" class href={{ route("page.faq") }}>FAQ</a> 

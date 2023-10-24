@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-color: #FFEFDA;">
+<body style="background-color: #91ffa5;">
     <p style="font-size: 18px;">
         Hello! You've made it to LearnX!
         Our goal is to make school easy for teachers and fun for kids.
