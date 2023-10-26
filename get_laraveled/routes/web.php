@@ -57,7 +57,9 @@ Route::get('/whyUs', function () {
 Route::get('/whatPeopleSay', function () {
     return view('whatPeopleSay');
 })->name("page.reviews");
-
+Route::get('/student', function (){
+    return view('Student-View');
+})->name("page.student");
 
 // Show Register/Create Form through create function in UserController
 Route::get('/SignUp', [UserController::class, 'create'])->name('signup')->middleware('guest');

@@ -17,6 +17,7 @@ class UserController extends Controller
     public function store(Request $request) {
         $formFields = $request->validate([
             'name' => ['required', 'min:3'],//Gets the users name and makes sure it is 3 characters long and declares it required
+            //add 'permissions' here. It will be required and will be based on a radio button. Will be used to determine how stuff is displayed
             'email' => ['required', 'email', Rule::unique('users', 'email')], //Gets email and declares it required. It also makes user it is email format
             'password' => 'required|confirmed|min:6', //Gets password and makes sure it is Confirmed and 6 Characters long. Also declares it required
             //'radio' => 'required'
