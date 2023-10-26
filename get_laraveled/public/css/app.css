@@ -1,0 +1,249 @@
+
+/*ALL @font-faces ARE FOR FONTS*/
+@font-face
+{
+    font-family: 'Preahvihear';
+    src:url("/Fonts/Preahvihear-Regular.ttf")
+}
+
+@font-face
+{
+    font-family: 'ArchivoBlack';
+    src: url("/Fonts/ArchivoBlack-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: 'BalsamiqSans';
+    src: url("/Fonts/BalsamiqSans-Regular.ttf");
+}
+
+.Top-div-info-page /*controls everything about the top of the index page*/
+{
+    background-image: url("/Images/School-Supplies.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    border: 2px solid #000; /*does how think and what color*/
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 100%;
+}
+
+.sign-in-create-account/*controls the text for "sign-in | create account*/
+{
+    color: white;
+    text-align: right;
+}
+
+.slogan /*Controls the text of the slogan for LearnX*/
+{
+    background: #9b84ff;
+    border-color: #161718;
+    border-width: 7px;
+    border-style: solid;
+    font-family: 'BalsamiqSans';
+    font-size: 35px;
+    position:absolute;
+}
+
+.Text-and-Pic
+{
+    position:absolute;
+    margin-left: 1115px;
+    margin-top: 63px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7E481C;
+}
+
+.main-intro-page-body /*Controls the whole background of the index page*/
+{
+    background-color: rgb(205, 186, 203);
+}
+
+.body-text
+{
+    position:absolute;
+    margin-left: 900px;
+    background: #91ffa5;
+    width: 620px;
+    height: 550Px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.info-div /*controls everything about the info div at the bottom of the 
+            index page*/
+{
+    background-image: url("/Images/Light-Rainbow-Gradient.jpg");
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #000000;
+    font-family: 'Preahvihear';
+    font-size: 30px;
+    text-align: center;
+    height: 69px;
+    width: 98.5%;
+    position:absolute;
+    
+}
+
+.link /*controls how text looks and 
+        WILL(DELETE THIS WHEN YOU DO) MAKE THE TEXT INTO LINKS*/
+{
+    margin: 44px;
+    display: inline;
+}
+
+
+.Sign-In-bg /*background for the sgin-in page*/
+{
+    background-image: url("/Images/Stock-img-Rainbow-background.jpg");
+    background-size: cover;
+}
+
+.sign-in-box /*the boxes for typing in email & password*/
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 147px;
+} 
+
+#email, #password /*sets how the boxes will look on the inside*/
+{
+    border: 2px solid #000;
+    font-family: Preahvihear;
+    font-size: 18px;
+    padding: 3px;
+    
+}
+
+.sign-in /*THIS IS DUMB BUT...this mkaes the words "sign-in" on the sign-in
+            page look how they look*/
+{
+    font-family: Preahvihear;
+    text-align: center;
+    font-size: 125px;
+    position: relative;
+    top: 75px;
+}
+
+.Title /*changes the text for "LearnX"*/
+{
+    font-family: ArchivoBlack;
+    font-size: 50px;
+    text-align: center;
+}
+
+.info /*changes text for the info on the sign-in page*/
+{
+    font-size: 24;
+    background-color: #FFFFF0;
+    text-align: left;
+    
+}
+
+
+.faq
+{
+    position:absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+    color: black;
+    /*Change color to make them more obvious*/
+}
+
+#inText
+{
+    color: black;
+    text-decoration: underline;
+    /*Change color to make them more obvious*/
+}
+
+.new-accounts
+{
+    background-image: url("/Images/Light-Rainbow-Gradient.jpg");
+    font-family: 'Preahvihear';
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.new-accounts#title
+{
+    font-size: 64px;
+}
+
+textarea {
+    resize: none;
+  }
+
+#middle{ 
+    height: 98%;
+    width:600px;
+    background: linear-gradient( to right, cyan, #FF6AFF);
+    position:absolute;
+    margin-left: 465px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+
+.whyUs
+{
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    width: 1425px;
+    height: auto;
+}
+input[type=submit]
+{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0)
+}
+.AboutPics
+{
+    position: absolute;
+}
+.AboutDescription
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.donation-box /*the boxes for typing in donation information*/
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 600px;
+    /*Get input font bigger*/
+} 
+/*
+#orgAt, #homeSchool{
+    display: none;
+}
+
+#choice1:checked ~ #orgAt{
+    display: block;
+}
+
+#choice2:checked ~ #homeSchool{
+    display: block;
+}*/
