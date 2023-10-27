@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body style="background-color: white;">
     <style>
         input
             {
@@ -21,35 +21,39 @@
             font-size: 1.1rem;
         }
     </style>
-    <div style="position:absolute; margin-left: 600px; margin-top:150px; background-color:white;">
+    <div style="width: 400px; height: 500px; position:absolute; margin-left: 550px; margin-top:80px; background-color:white;">
         <!--Goes to route and then to UserController to be varified and stored-->
         <!--The value "old" makes it so the boxes retain what they say so the user doesnt have 
         to repeat themself-->
-        <form form method="POST" action="/users">
+        <form form method="POST" action="/users" style="position:absolute; margin-left: 45px; margin-top:20px;">
             @csrf <!--Makes it so people cant use scripts against your site-->
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"  value="{{old('name')}}"><br>
+            <input type="text" id="name" name="name" placeholder="Hugh Man" value="{{old('name')}}"><br>
             @error('name')
                 <p style="color:red">{{$message}}</p>
             @enderror
+            <br>
             <!--Gets name. Errors if you dont put it in or it is incorrect-->
             <label for="mail">Email:</label><br>
-            <input type="email" id="mail" name="email" value="{{old('email')}}"><br>
+            <input type="email" id="mail" name="email" placeholder="username@example.com" value="{{old('email')}}"><br>
             @error('email')
                 <p style="color:red">{{$message}}</p>
             @enderror
+            <br>
             <!--Gets email. Errors if you dont put it in or it is incorrect-->
             <label for="password">Password:</label><br>
-            <input type="password" id="newPassword" name="password" value="{{old('password')}}"><br>
+            <input type="password" id="newPassword" name="password" placeholder="Password123456!" value="{{old('password')}}"><br>
             @error('password')
                 <p style="color:red">{{$message}}</p>
             @enderror
+            <br>
             <!--Gets password. Errors if you dont put it in or it is incorrect-->
             <label for="passord2">Confirm Password:</label><br>
-            <input type="password" id="password2" name="password_confirmation" value="{{old('password_confirmation')}}"><br>
+            <input type="password" id="password2" name="password_confirmation" placeholder="Password123456!" value="{{old('password_confirmation')}}"><br>
             @error('password_confirmation')
                 <p style="color:red">{{$message}}</p>
             @enderror
+            <br>
             <!--Confirms password with a custom confirmation name. Errors if you dont put it in or it is incorrect-->
             
             <!--<input type="radio" id="choice1" name="radio" value="Org">

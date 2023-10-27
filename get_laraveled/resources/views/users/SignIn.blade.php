@@ -47,7 +47,7 @@
                 </div>
 
                 <div>
-                    <input type="text" id="password" name="password" placeholder="Password" value="{{old('password')}}">
+                    <input type="password" id="password" name="password" placeholder="Password" value="{{old('password')}}">
                     @error('password')
                         <p style="color:red">{{$message}}</p>
                     @enderror
