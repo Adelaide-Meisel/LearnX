@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-color: rgb(205, 186, 203);">
-    <div style="position:absolute; margin-right: 25px; margin-left: 505px;">
+<body>
+    <div style="position:absolute; margin-left: 520px; margin-top:100px; background-color:white;">
         <!--Goes to route and then to UserController to be varified and stored-->
         <!--The value "old" makes it so the boxes retain what they say so the user doesnt have 
         to repeat themself-->
-        <form form method="POST" action="/users">
+        <form form method="POST" action="/users" style="1.5rem">
             @csrf <!--Makes it so people cant use scripts against your site-->
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"  value="{{old('name')}}"><br>
