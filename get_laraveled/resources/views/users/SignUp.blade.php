@@ -10,11 +10,22 @@
 </head>
 
 <body>
-    <div style="position:absolute; margin-left: 520px; margin-top:100px; background-color:white;">
+    <style>
+        input
+            {
+                width: 300px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+        label{
+            font-size: 1.1rem;
+        }
+    </style>
+    <div style="position:absolute; margin-left: 600px; margin-top:150px; background-color:white;">
         <!--Goes to route and then to UserController to be varified and stored-->
         <!--The value "old" makes it so the boxes retain what they say so the user doesnt have 
         to repeat themself-->
-        <form form method="POST" action="/users" style="1.5rem">
+        <form form method="POST" action="/users">
             @csrf <!--Makes it so people cant use scripts against your site-->
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"  value="{{old('name')}}"><br>
