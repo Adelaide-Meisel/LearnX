@@ -1,3 +1,7 @@
+/*Tailwind Directives*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*ALL @font-faces ARE FOR FONTS*/
 @font-face
@@ -24,7 +28,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    border: 2px solid #000; /*does how think and what color*/
+    border: 2px solid #000; /*does how thick and what color*/
     font-family: 'Preahvihear';
     font-size: 30px;
     text-align: left;
