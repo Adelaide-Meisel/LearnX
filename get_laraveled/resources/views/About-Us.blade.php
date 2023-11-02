@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-{{-- <link rel="stylesheet" type="text/css" href="/css/app.css">  --}}
-@vite('resources/css/app.css')
+<link rel="stylesheet" type="text/css" href="/css/app.css"> 
+{{-- @vite('resources/css/app.css') --}}
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="LearnX About">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="bg-green-300">
+<body style="background-color: #91ffa5;">
     <p class="text-4xl mt-12">
         {{-- <p style="font-size: 18px;"> --}}
             Hello! You've made it to LearnX!
