@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" type="text/css" href="/css/app.css"> 
-{{-- @vite('resources/css/app.css') --}}
+{{-- <link rel="stylesheet" type="text/css" href="/css/app.css">  --}}
+@vite('resources/css/app.css')
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="LearnX reset password">
