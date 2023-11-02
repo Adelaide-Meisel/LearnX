@@ -10,8 +10,9 @@
 </head>
 
 <body class="bg-green-300">
-    <p style="font-size: 18px;">
-        Hello! You've made it to LearnX!
+    <p class="text-4xl mt-12">
+        {{-- <p style="font-size: 18px;"> --}}
+            Hello! You've made it to LearnX!
         Our goal is to make school easy for teachers and fun for kids.
         <br>
         <br>
