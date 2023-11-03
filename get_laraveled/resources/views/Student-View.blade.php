@@ -14,7 +14,7 @@
                 <div style="position:absolute; margin-left: 350px"><!--Math--><img img src="/Images/Math_Icon.jpg" alt="Image cannot load" width="80px" height="90px"> <!--Image by brgfx on Freepik--></div>
                 <div style="position:absolute; margin-left: 500px"><!--English--><img img src="/Images/English_Icon.jpg" alt="Image cannot load" width="80px" height="90px"><!--Image by upklyak on Freepik--></div>
                 <div style="position:absolute; margin-left: 650px"><!--History--><img img src="/Images/History_Icon.jpg" alt="Image cannot load" width="80px" height="80px"><!--Image by Freepik--></div>
-                <div style="position:absolute; margin-left: 93%"><!--pfp--><img img src="" alt="Image cannot load" width="90px" height="90px"></div>
+                <div style="position:absolute; margin-left: 90%"><!--pfp--><img img src="" alt="Image cannot load" width="90px" height="90px"></div>
                 <div style="position:absolute; margin-left: 93%"><!--Home Button--><img img src="/Images/Home_Icon.png" alt="Image cannot load" width="90px" height="90px"></div><!--Image by qalebstudio on Freepik-->
                 <div></div>
                 LearnX      
