@@ -61,6 +61,26 @@ Route::get('/whatPeopleSay', function () {
 Route::get('/student', function (){
     return view('Student-View');
 })->name("page.student");
+//Goes to the math page
+Route::get('/math', function (){
+    return view('Math');
+})->name("page.math");
+//Goes to the science page
+Route::get('/science', function (){
+    return view('Science');
+})->name("page.science");
+//Goes to the history page
+Route::get('/history', function (){
+    return view('History');
+})->name("page.history");
+//Goes to the english page
+Route::get('/english', function (){
+    return view('English');
+})->name("page.english");
+//Goes to the profile page
+Route::get('/profile', function (){
+    return view('Profile');
+})->name("page.profile");
 
 // Show Register/Create Form through create function in UserController
 Route::get('/SignUp', [UserController::class, 'create'])->name('signup')->middleware('guest');
