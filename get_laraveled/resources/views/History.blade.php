@@ -31,7 +31,7 @@
     <div>
         <!--Belt Color-->
     </div>
-    <div style="font-family: 'Preahvihear';Text-align: Center; font-size:x-large">
+    <div style="font-family: 'Preahvihear';Text-align: Center; font-size:5rem;">
         <b>HISTORY</b>
     </div> 
     <div style="font-family: 'Arial';">
