@@ -10,7 +10,7 @@
 
     <div style="border: 2px solid #000; font-family: 'Preahvihear'; font-size: 30px; text-align: left; height: 100px; width: 100%;">
         <div>
-                <div style="position:absolute; margin-left: 200px"><img src="/Images/LearnX_Logo.png" alt="Image cannot load" width="90px" height="100px"></div>
+                <div style="position:absolute; margin-left: 120px;"><img src="/Images/LearnXLogo.png" alt="Image cannot load" width="140px" height="150px"></div>
                 <div style="position:absolute; margin-left: 350px"><!--Science--><a href={{ route("page.science") }}><img src="/Images/Science_Icon.jpg" alt="Image cannot load" width="90px" height="100px"></a><!--Image by rawpixel.com on Freepik>--></div>
                 <div style="position:absolute; margin-left: 500px"><!--Math--><a href={{ route("page.math") }}><img src="/Images/Math_Icon.jpg" alt="Image cannot load" width="80px" height="90px"></a><!--Image by brgfx on Freepik--></div>
                 <div style="position:absolute; margin-left: 650px"><!--English--><a href={{ route("page.english") }}><img src="/Images/English_Icon.jpg" alt="Image cannot load" width="80px" height="90px"></a><!--Image by upklyak on Freepik--></div>
