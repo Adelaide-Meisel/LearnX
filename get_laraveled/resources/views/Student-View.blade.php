@@ -25,7 +25,7 @@
     </div>
 
     <div>
-        <!--Belt Color-->
+        <!--bElT cOlOr--> 
     </div>
     <div>
         Started Assignments: <!--4 divs in one div for the assignments-->
