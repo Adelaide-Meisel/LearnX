@@ -62,8 +62,8 @@
             <br>
         </div>
     <div>
- 
-    <div style="font-family: 'Preahvihear'; font-size: 30px; text-align: left; height: 100px; width: 100%;">
+
+    <div style="font-family: 'Preahvihear'; font-size: 30px; text-align: left; height: 100px; width: 100%; position:absolute; bottom: 0;">
         <div style="position:absolute; margin-left: 10%; color:#BE84FF">Flashcards</div>
         <div style="position:absolute; margin-left: 43%; color: #8FE475">Learning Fun</div>
         <div style="position:absolute; margin-left: 80%; color:#BE84FF">Timeline</div>
