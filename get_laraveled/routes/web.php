@@ -99,3 +99,41 @@ Route::post('/users/authenticate', [UserController::class, 'authenticate']);
    
 
 //Give new routes name 
+
+
+Route::get('/contractions', function (){
+    return view('Contractions');
+})->name("page.contractions");
+Route::get('/lettersandsounds', function (){
+    return view('Letters-And-Sounds');
+})->name("page.lettersandsounds");
+Route::get('/nounsverbsetc', function (){
+    return view('Nouns-Verbs-Etc');
+})->name("page.nounsverbsetc");
+Route::get('/punctuation', function (){
+    return view('Puntuations');
+})->name("page.punctuation");
+Route::get('/reasearch-citations', function (){
+    return view('Reasearch-Citations');
+})->name("page.reasearch.citations");
+Route::get('/definitions', function (){
+    return view('Definitions');
+})->name("page.definitions");
+Route::get('/essays', function (){
+    return view('Essays');
+})->name("page.essays");
+Route::get('/small-reading', function (){
+    return view('Small-Reading');
+})->name("page.small.reading");
+Route::get('/small-spelling', function (){
+    return view('Small-Spelling');
+})->name("page.spell.spelling");
+Route::get('/storytelling', function (){
+    return view('Storytelling');
+})->name("page.storytelling");
+Route::get('/vowelsandconsenents', function (){
+    return view('Vowels-And-Consenents');
+})->name("page.vsandcs");
+Route::get('/holidays', function (){
+    return view('Holidays');
+})->name("page.holidays");

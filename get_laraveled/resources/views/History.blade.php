@@ -38,7 +38,7 @@
     <div style="display: flex; flex-direction: colum;"> 
         <div style="font-family: 'Arial'; width: 50%; margin-left: 24%">
             <br>
-            <div>Holidays Around the World</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.holidays") }}>Holidays Around the World</a></div>
             <br>
             <div>Contenents/Oceans</div>
             <br>

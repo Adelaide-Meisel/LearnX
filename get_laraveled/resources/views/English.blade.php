@@ -38,28 +38,28 @@
     <div style="display: flex; flex-direction: colum;"> 
         <div style="font-family: 'Arial'; width: 50%; margin-left: 24%">
             <br>
-            <div>Letters & Sounds</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Letters & Sounds</a></div>
             <br>
-            <div>Vowels & Consentents</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Vowels & Consentents</a></div>
             <br>
-            <div>Nous, Verbs, etc.</div><!--link to choose-->
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Nouns, Verbs, etc.</a></div><!--link to choose-->
             <br>
-            <div>Small Spelling</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Small Spelling</a></div>
             <br>
-            <div>Contractions</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Contractions</a></div>
             <br>
         </div>
         <div style="font-family: 'Arial'; width: 50%; text-align:left">
             <br>
-            <div>Puntuaction</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Puntuaction</a></div>
             <br> 
-            <div>Definitions</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Definitions</a></div>
             <br>
-            <div>Eassays</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Essays</a></div>
             <br>
-            <div>Reaseach/Citations</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Reaseach/Citations</a></div>
             <br>
-            <div>Story Telling</div>
+            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Story Telling</a></div>
             <br>
         </div>
     </div>
