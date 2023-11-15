@@ -127,7 +127,7 @@ Route::get('/small-reading', function (){
 })->name("page.small.reading");
 Route::get('/small-spelling', function (){
     return view('Small-Spelling');
-})->name("page.spell.spelling");
+})->name("page.small.spelling");
 Route::get('/storytelling', function (){
     return view('Storytelling');
 })->name("page.storytelling");

@@ -27,7 +27,7 @@
             <br>
             A+ A+ A+
         </div>  
-    </div>
+</div>
 
     <div>
         <!--Belt Color-->
@@ -40,26 +40,26 @@
             <br>
             <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Letters & Sounds</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Vowels & Consentents</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.vsandcs") }}>Vowels & Consentents</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Nouns, Verbs, etc.</a></div><!--link to choose-->
+            <div><a type="button" value ="Yes" class href={{ route("page.nounsverbsetc") }}>Nouns, Verbs, etc.</a></div><!--link to choose-->
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Small Spelling</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.small.spelling") }}>Small Spelling</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Contractions</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.contractions") }}>Contractions</a></div>
             <br>
         </div>
         <div style="font-family: 'Arial'; width: 50%; text-align:left">
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Puntuaction</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.punctuation") }}>Puntuaction</a></div>
             <br> 
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Definitions</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.definitions") }}>Definitions</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Essays</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.essays") }}>Essays</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Reaseach/Citations</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.reasearch.citations") }}>Reaseach/Citations</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.lettersandsounds") }}>Story Telling</a></div>
+            <div><a type="button" value ="Yes" class href={{ route("page.storytelling") }}>Story Telling</a></div>
             <br>
         </div>
     </div>
