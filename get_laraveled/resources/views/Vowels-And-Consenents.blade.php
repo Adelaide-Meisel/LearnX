@@ -31,10 +31,10 @@
         <div style="font-family: 'Preahvihear';Text-align: Center; font-size:5rem;">
            <b>VOWELS & CONSONANTS</b>
         </div>
-        <div>
-        A,E,I,O, and U are vowels. Vowels are letters that appear in every word and every syllable(not always all together).
+        <div style="font-family: Arial, Helvetica, sans-serif">
+        A,E,I,O, and U are vowels. Vowels are letters that appear in every word and every syllable.
         <br>
-        All the other letters work with the vowels to create words
+        All the other letters which work with the vowels to create words
         </div>
     </body>
 </html>
