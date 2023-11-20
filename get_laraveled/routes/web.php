@@ -107,9 +107,9 @@ Route::get('/contractions', function (){
 Route::get('/lettersandsounds', function (){
     return view('Letters-And-Sounds');
 })->name("page.lettersandsounds");
-Route::get('/nounsverbsetc', function (){
-    return view('Nouns-Verbs-Etc');
-})->name("page.nounsverbsetc");
+Route::get('/partsofspeech', function (){
+    return view('Parts-Of-Speech');
+})->name("page.partsofspeech");
 Route::get('/punctuation', function (){
     return view('Puntuations');
 })->name("page.punctuation");

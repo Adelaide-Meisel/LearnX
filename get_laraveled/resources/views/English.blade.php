@@ -42,7 +42,7 @@
             <br>
             <div><a type="button" value ="Yes" class href={{ route("page.vsandcs") }}>Vowels & Consentents</a></div>
             <br>
-            <div><a type="button" value ="Yes" class href={{ route("page.nounsverbsetc") }}>Nouns, Verbs, etc.</a></div><!--link to choose-->
+            <div><a type="button" value ="Yes" class href={{ route("page.partsofspeech") }}>Parts of Speech</a></div><!--link to choose-->
             <br>
             <div><a type="button" value ="Yes" class href={{ route("page.small.spelling") }}>Small Spelling</a></div>
             <br>
